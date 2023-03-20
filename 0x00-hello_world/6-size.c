@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
-* You should produce the exact same output as in the example
-* Warnings are allowed
+* main - print the string in the put function
 *
-* Your program should return 0
+* Description: using the main function
+* this program prints ""Programming is like building a multilingual puzzle
+* Return: 0
 */
 int main(void)
 {
