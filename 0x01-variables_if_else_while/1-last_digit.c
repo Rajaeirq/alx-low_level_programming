@@ -3,9 +3,8 @@
 #include <stdio.h>
 /**
 * main - print if the number is positive, zero, or negative
-*
 * Description: using the main function
-* this program prints "programming is positive, zero or negative
+* this program prints "programming is positive, zero or negative"
 * Return: 0
 */
 int main(void)
@@ -29,5 +28,5 @@ else
 {
 	printf("Last digit of %d is %d and is less tahn 6 and not 0\n", n, l);
 }
-return (0)
+return (0);
 }
