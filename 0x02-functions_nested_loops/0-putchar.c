@@ -1,12 +1,9 @@
 #include "main.h"
-
-
 /**
- * main - check the code
- *
+ * main - Entry point
+ *Description: 'prints _putchar to stdout'
  * Return: Always 0.
  */
-
 int main(void)
 {
 	_putchar('_');
