@@ -1,21 +1,20 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * print_to_98 - prints all natural numbers from n to 98
- * @n: starting point
- * Return: returns nothing
+ * main - Prints natural numbers below 1024 that are
+ * multiplies of 3 or 5
+ *
+ * Return: Always 0.
  */
-
-void print_to_98(int n)
+int main(void)
 {
-	if (n <= 98)
+	int a, b;
+
+	for (a = 1; a < 1024; a++)
 	{
-		for (n = n; n <= 97; n++)
-			printf("%d, ", n);
+		if ((a % 3) == 0 || (a % 5) == 0)
+			b += a;
 	}
-	else
-		for (n = n; n > 98; n--)
-			printf("%d, ", n);
-	printf("98\n");
+	printf("%d\n", b);
+	return (0);
 }
